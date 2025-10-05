@@ -63,15 +63,6 @@ export default function App() {
     }
   };
 
-  const scrollToProducts = () => {
-    const productsSection = document.getElementById('products');
-    if (productsSection) {
-      const yOffset = -80; 
-      const y = productsSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
-      window.scrollTo({ top: y, behavior: 'smooth' });
-    }
-  };
-
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
       <Navbar cartItemCount={cartItemCount} onCartClick={() => setIsCartOpen(true)} />
