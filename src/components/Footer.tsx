@@ -1,5 +1,4 @@
-import { Heart } from "lucide-react";
-// import logo from "@/assets/logo.jpg";
+
 
 const Footer = () => {
   return (
@@ -10,7 +9,7 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
-              {/* <img src={logo} alt="ShopKart Logo" className="w-10 h-10 object-contain" /> */}
+           
               <span className="text-3xl font-extrabold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
                 TechStore
               </span>

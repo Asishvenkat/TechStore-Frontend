@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import ProductGrid from './components/ProductGrid';
@@ -75,7 +75,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
       <Navbar cartItemCount={cartItemCount} onCartClick={() => setIsCartOpen(true)} />
-      <Hero scrollToProducts={scrollToProducts} />
+      <Hero  />
       <SuccessMessage show={showSuccess} />
 
       <main id="products" className="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">

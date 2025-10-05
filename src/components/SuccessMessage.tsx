@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 interface SuccessMessageProps {
   show: boolean;
- 
+  duration?: number; 
 }
 
 const SuccessMessage: React.FC<SuccessMessageProps> = ({ show, duration = 3000 }) => {
