@@ -11,7 +11,7 @@ interface CartItem {
   quantity: number;
 }
 
-const API_BASE_URL = 'https://techstore-backend-flqn.onrender.com/api';
+const API_BASE_URL = 'https://techstore-backend-2-uybj.onrender.com/api';
 
 export const api = {
   getProducts: async (): Promise<Product[]> => {
